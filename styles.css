@@ -2,17 +2,17 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom right, #3498db, #FE2EC8);
 }
-.diagonal-gradient {
-    background: linear-gradient(to bottom right, blue, pink);
-  }
-header {#333;
-    background-color: .diagonal-gradient 
+header {
+    background:#diagonal-gradient
     color: #fff;
     padding: 10px;
     text-align: center;
 }
-
+#logo-img {
+    width: 100px; 
+}
 nav ul {
     list-style-type: none;
     margin: 0;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/LOGO2.png" type="image/png">
+    <title>INGENI4TEC - Desarrollo Web y Servicios de Computación</title>
+</head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<body>
+
+    <header>
+        <h1>INGENI4TEC</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a INGENI4TEC</h2>
+        <!-- Contenido de la sección de inicio -->
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <!-- Contenido de la sección "Nosotros" -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- Contenido del formulario de contacto -->
+        <form id="citaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="servicio">Servicio:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="desarrollo">Desarrollo Web</option>
+                <option value="mantenimiento">Mantenimiento de Equipos</option>
+                <option value="instalacion">Instalación de Redes</option>
+                <option value="venta">Venta de Equipos</option>
+            </select>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <button type="submit">Agendar Cita</button>
+        </form>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo de Productos</h2>
+        <!-- Contenido del catálogo -->
+    </section>
+
+    <footer>
+        <!-- Contenido del pie de página -->
+    </footer>
+
+    <script>
+        // Puedes agregar scripts JavaScript aquí
+    </script>
+
+</body>
+</html>

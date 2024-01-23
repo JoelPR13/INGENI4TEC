@@ -5,13 +5,27 @@ body {
     background: linear-gradient(to bottom right, #3498db, #FE2EC8);
 }
 header {
-    background:#diagonal-gradient
     color: #fff;
     padding: 10px;
     text-align: center;
+    height: top; 
+}
+#mainHeader {
+    background-color: #3333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s;
+}
+
+#mainHeader.navbar-scrolled {
+    background-color: #555; /* Cambia el color cuando se desplaza hacia abajo */
 }
 #logo-img {
-    width: 100px; 
+    width: 130px; 
 }
 nav ul {
     list-style-type: none;
@@ -22,6 +36,14 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+}
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    margin-right: auto;
 }
 
 section {
